@@ -1,0 +1,135 @@
+## Cursor Rules
+
+## Instructions
+
+- Record fixes for mistakes or corrections to avoid repetition in the
+`Lessons` section.
+- Organize thoughts and plan steps before starting a task in the
+`Scratchpad` section.
+- Clear old tasks if necessary.
+- Use todo markers for progress tracking:
+  - `[X]` Completed tasks
+  - `[ ]` Pending tasks
+- Update Scratchpad after completing subtasks.
+- Reflect and plan after milestones for better task management.
+- Always refer to Scratchpad before planning the next step.
+
+## Lessons
+
+## Scratchpad
+
+### Phase 1: Project Setup and Configuration
+- [X] Initialize Next.js 15 project with TypeScript
+- [X] Set up project structure and folder organization
+- [X] Configure ESLint and Prettier
+- [X] Install and configure dependencies
+  - [X] Install Shadcn UI and its dependencies
+  - [X] Install and configure Prisma
+  - [X] Install authentication packages (next-auth@beta)
+  - [X] Install state management (Zustand)
+  - [X] Install form handling (Zod, React Hook Form)
+  - [X] Install UI utilities (Lucide icons, clsx, tailwind-merge)
+  - [X] Install chart library (Recharts)
+  - [X] Install email service (Resend)
+  - [X] Install file upload service (Uploadthing)
+  - [X] Install payment processing (Stripe)
+- [X] Set up Shadcn UI components
+- [ ] Configure Prisma with PostgreSQL
+- [ ] Set up environment variables
+- [ ] Initialize Git repository
+
+### Phase 2: Authentication and User Management
+- [ ] Implement next-auth@beta setup
+- [ ] Create user authentication flows (signup, login, forgot password)
+- [ ] Set up user roles (admin, customer)
+- [ ] Implement protected routes
+- [ ] Create user profile management
+
+### Phase 3: Database Schema and Models
+- [ ] Design and implement database schema
+  - [ ] User model
+  - [ ] Product model
+  - [ ] Category model
+  - [ ] Order model
+  - [ ] Cart model
+  - [ ] Review model
+  - [ ] Address model
+- [ ] Set up Prisma migrations
+- [ ] Create seed data for testing
+
+### Phase 4: Core E-commerce Features
+- [ ] Product Management
+  - [ ] Product listing page
+  - [ ] Product detail page
+  - [ ] Product search and filtering
+  - [ ] Product categories
+- [ ] Shopping Cart
+  - [ ] Add to cart functionality
+  - [ ] Cart management
+  - [ ] Cart persistence
+- [ ] Checkout Process
+  - [ ] Address management
+  - [ ] Payment integration with Stripe
+  - [ ] Order confirmation
+- [ ] Order Management
+  - [ ] Order history
+  - [ ] Order tracking
+  - [ ] Order status updates
+
+### Phase 5: Admin Dashboard
+- [ ] Admin Layout and Navigation
+- [ ] Dashboard Overview
+  - [ ] Sales analytics with Recharts
+  - [ ] Key metrics display
+  - [ ] Recent orders
+- [ ] Product Management
+  - [ ] Product CRUD operations
+  - [ ] Bulk product operations
+  - [ ] Product image upload with Uploadthing
+- [ ] Order Management
+  - [ ] Order processing
+  - [ ] Order status updates
+  - [ ] Order details view
+- [ ] User Management
+  - [ ] User list and search
+  - [ ] User role management
+  - [ ] User activity monitoring
+- [ ] Category Management
+  - [ ] Category CRUD operations
+  - [ ] Category hierarchy
+
+### Phase 6: Additional Features
+- [ ] Email Notifications with Resend
+  - [ ] Order confirmation emails
+  - [ ] Shipping updates
+  - [ ] Password reset emails
+- [ ] Review System
+  - [ ] Product reviews
+  - [ ] Rating system
+- [ ] Wishlist functionality
+- [ ] Related products
+- [ ] Recently viewed products
+
+### Phase 7: Performance and Optimization
+- [ ] Implement caching strategies
+- [ ] Optimize images and assets
+- [ ] Implement lazy loading
+- [ ] Add loading states
+- [ ] Error handling and boundaries
+- [ ] SEO optimization
+
+## Phase 8: Testing and Deployment
+- [ ] Unit testing
+- [ ] Integration testing
+- [ ] E2E testing
+- [ ] Performance testing
+- [ ] Security audit
+- [ ] Deployment setup
+- [ ] CI/CD pipeline
+
+## Phase 9: Documentation and Maintenance
+- [ ] API documentation
+- [ ] User documentation
+- [ ] Admin documentation
+- [ ] Maintenance procedures
+- [ ] Backup strategies
